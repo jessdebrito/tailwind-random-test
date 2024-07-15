@@ -10,7 +10,7 @@ function Avatar(props: AvatarProps) {
         <img
           src="./src/assets/photo.png"
           alt="Photo"
-          className="rounded-full hover:scale-x-110 hover:scale-y-100 animation-delay: 999s; hover:animate-bg-gradient-to-r p-[6px] from- [#6EE7B7] via-[#B82F6] to-[#93333EA]"
+          className="rounded-full hover:scale-x-110 hover:scale-y-110 animation-delay: 999s; hover:animate-bg-gradient-to-r p-[6px] from- [#6EE7B7] via-[#B82F6] to-[#93333EA]"
         />
       </div>
       <div className="avatar__texts text-center justify-between">

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../dist/output.css" />
+    <title>Layout | Tailwind 03</title>
+    <body class="bg-slate-100">
+       <div>
+            <span class="box-decoration-slice bg-gradient-to-r from-indigo-600 to-pink-400">
+                Hello
+                <br>
+                world!
+            </span>
+                <br>
+            <span class="box-decoration-clone bg-gradient-to-r from-pink-400 to-blue-800">
+                Hello
+                <br>
+                world!
+            </span>
+        </div>
+        <!-- "box-border h-32 w-32" inclui a borda na medida das dimensões
+          box-content h-32 w-32 não inclui a borda na medida das dimensões -->
+        <div class="box-border h-32 w-32 p4 border-4 bg-red-500"></div>
+        <div class="box-content h-32 w-32 p4 border-4 bg-red-500"></div>
+        <div class="h-full">
+            <div class="flex justify-center items-center bg-indigo-300">
+                <img src="./assets/photo.png" class="object-scale-down h-48 w-96">
+            </div>
+        </div>
+      </body>
+
+</html>
